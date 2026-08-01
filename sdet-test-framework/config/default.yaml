@@ -1,0 +1,24 @@
+base_url: "https://www.saucedemo.com"
+api_base_url: "https://reqres.in/api"
+
+browser:
+  name: "chromium"
+  headless: true
+  window_width: 1440
+  window_height: 900
+
+timeouts:
+  default_wait_seconds: 10
+  api_timeout_seconds: 8
+
+retry:
+  max_attempts: 3
+  backoff_seconds: 1
+
+credentials:
+  standard_user:
+    username: "standard_user"
+    password: "secret_sauce"
+  locked_out_user:
+    username: "locked_out_user"
+    password: "secret_sauce"

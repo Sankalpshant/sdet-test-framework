@@ -1,0 +1,86 @@
+2026-08-01 18:21:12 | WARNING  | framework.decorators | fails_twice_then_succeeds failed on attempt 1/3: simulated flaky failure
+2026-08-01 18:21:12 | WARNING  | framework.decorators | fails_twice_then_succeeds failed on attempt 2/3: simulated flaky failure
+2026-08-01 18:21:12 | WARNING  | framework.decorators | always_fails failed on attempt 1/2: permanent failure
+2026-08-01 18:21:12 | WARNING  | framework.decorators | always_fails failed on attempt 2/2: permanent failure
+2026-08-01 18:21:12 | ERROR    | framework.decorators | always_fails failed after 2 attempts, giving up.
+2026-08-01 18:21:12 | WARNING  | framework.soft_assert | Soft assertion failed: first failure
+2026-08-01 18:21:12 | WARNING  | framework.soft_assert | Soft assertion failed: second failure
+2026-08-01 18:21:12 | WARNING  | framework.soft_assert | Soft assertion failed: oops
+2026-08-01 18:21:49 | INFO     | framework.api_client | GET https://reqres.in/api/users/2 params=None
+2026-08-01 18:21:49 | INFO     | framework.api_client | -> 401 (774ms)
+2026-08-01 18:21:49 | INFO     | framework.api_client | GET https://reqres.in/api/users/9999 params=None
+2026-08-01 18:21:50 | INFO     | framework.api_client | -> 401 (353ms)
+2026-08-01 18:21:50 | INFO     | framework.api_client | POST https://reqres.in/api/users body={'name': 'Sankalp', 'job': 'SDET'}
+2026-08-01 18:21:50 | INFO     | framework.api_client | -> 401 (222ms)
+2026-08-01 18:25:46 | INFO     | framework.api_client | GET https://reqres.in/api/users/2 params=None
+2026-08-01 18:25:46 | INFO     | framework.api_client | -> 401 (382ms)
+2026-08-01 18:25:47 | INFO     | framework.api_client | GET https://reqres.in/api/users/9999 params=None
+2026-08-01 18:25:47 | INFO     | framework.api_client | -> 401 (347ms)
+2026-08-01 18:25:47 | INFO     | framework.api_client | POST https://reqres.in/api/users body={'name': 'Sankalp', 'job': 'SDET'}
+2026-08-01 18:25:47 | INFO     | framework.api_client | -> 401 (330ms)
+2026-08-01 18:29:45 | INFO     | framework.api_client | GET https://reqres.in/api/users/2 params=None
+2026-08-01 18:29:46 | INFO     | framework.api_client | -> 401 (780ms)
+2026-08-01 18:29:46 | INFO     | framework.api_client | GET https://reqres.in/api/users/9999 params=None
+2026-08-01 18:29:47 | INFO     | framework.api_client | -> 401 (590ms)
+2026-08-01 18:29:47 | INFO     | framework.api_client | POST https://reqres.in/api/users body={'name': 'Sankalp', 'job': 'SDET'}
+2026-08-01 18:29:47 | INFO     | framework.api_client | -> 401 (608ms)
+2026-08-01 18:31:53 | WARNING  | framework.decorators | fails_twice_then_succeeds failed on attempt 1/3: simulated flaky failure
+2026-08-01 18:31:53 | WARNING  | framework.decorators | fails_twice_then_succeeds failed on attempt 2/3: simulated flaky failure
+2026-08-01 18:31:53 | WARNING  | framework.decorators | always_fails failed on attempt 1/2: permanent failure
+2026-08-01 18:31:53 | WARNING  | framework.decorators | always_fails failed on attempt 2/2: permanent failure
+2026-08-01 18:31:53 | ERROR    | framework.decorators | always_fails failed after 2 attempts, giving up.
+2026-08-01 18:31:53 | WARNING  | framework.soft_assert | Soft assertion failed: first failure
+2026-08-01 18:31:53 | WARNING  | framework.soft_assert | Soft assertion failed: second failure
+2026-08-01 18:31:53 | WARNING  | framework.soft_assert | Soft assertion failed: oops
+2026-08-01 18:32:01 | INFO     | framework.api_client | GET https://reqres.in/api/users/2 params=None
+2026-08-01 18:32:02 | INFO     | framework.api_client | -> 401 (412ms)
+2026-08-01 18:32:02 | INFO     | framework.api_client | GET https://reqres.in/api/users/9999 params=None
+2026-08-01 18:32:02 | INFO     | framework.api_client | -> 401 (434ms)
+2026-08-01 18:32:02 | INFO     | framework.api_client | POST https://reqres.in/api/users body={'name': 'Sankalp', 'job': 'SDET'}
+2026-08-01 18:32:03 | INFO     | framework.api_client | -> 401 (366ms)
+2026-08-01 18:36:14 | INFO     | framework.api_client | GET https://jsonplaceholder.typicode.com/posts/1 params=None
+2026-08-01 18:36:14 | INFO     | framework.api_client | -> 200 (360ms)
+2026-08-01 18:36:14 | INFO     | framework.api_client | GET https://jsonplaceholder.typicode.com/posts/9999 params=None
+2026-08-01 18:36:17 | INFO     | framework.api_client | -> 404 (2749ms)
+2026-08-01 18:36:17 | INFO     | framework.api_client | POST https://jsonplaceholder.typicode.com/posts body={'title': 'SDET framework test', 'body': 'created via ApiClient', 'userId': 1}
+2026-08-01 18:36:20 | INFO     | framework.api_client | -> 201 (3275ms)
+2026-08-01 18:36:20 | INFO     | framework.api_client | PUT https://jsonplaceholder.typicode.com/posts/1 body={'id': 1, 'title': 'Updated title', 'body': 'Updated body', 'userId': 1}
+2026-08-01 18:36:21 | INFO     | framework.api_client | -> 200 (608ms)
+2026-08-01 18:36:21 | INFO     | framework.api_client | DELETE https://jsonplaceholder.typicode.com/posts/1
+2026-08-01 18:36:22 | INFO     | framework.api_client | -> 200 (1016ms)
+2026-08-01 18:36:40 | INFO     | framework.driver_factory | Launching browser=chromium headless=True size=1440x900
+2026-08-01 18:36:40 | INFO     | framework.base_page | Navigating to https://www.saucedemo.com
+2026-08-01 18:36:48 | DEBUG    | framework.base_page | Filling 'standard_user' into: #user-name
+2026-08-01 18:36:48 | DEBUG    | framework.base_page | Filling 'secret_sauce' into: #password
+2026-08-01 18:36:48 | DEBUG    | framework.base_page | Clicking: #login-button
+2026-08-01 18:36:49 | INFO     | framework.driver_factory | Browser session closed.
+2026-08-01 18:36:49 | INFO     | framework.driver_factory | Launching browser=chromium headless=True size=1440x900
+2026-08-01 18:36:49 | INFO     | framework.base_page | Navigating to https://www.saucedemo.com
+2026-08-01 18:36:50 | DEBUG    | framework.base_page | Filling 'standard_user' into: #user-name
+2026-08-01 18:36:50 | DEBUG    | framework.base_page | Filling 'wrong_pass' into: #password
+2026-08-01 18:36:50 | DEBUG    | framework.base_page | Clicking: #login-button
+2026-08-01 18:36:50 | INFO     | framework.driver_factory | Browser session closed.
+2026-08-01 18:36:51 | INFO     | framework.driver_factory | Launching browser=chromium headless=True size=1440x900
+2026-08-01 18:36:51 | INFO     | framework.base_page | Navigating to https://www.saucedemo.com
+2026-08-01 18:36:51 | DEBUG    | framework.base_page | Filling 'locked_out_user' into: #user-name
+2026-08-01 18:36:51 | DEBUG    | framework.base_page | Filling 'secret_sauce' into: #password
+2026-08-01 18:36:51 | DEBUG    | framework.base_page | Clicking: #login-button
+2026-08-01 18:36:51 | INFO     | framework.driver_factory | Browser session closed.
+2026-08-01 18:36:52 | INFO     | framework.driver_factory | Launching browser=chromium headless=True size=1440x900
+2026-08-01 18:36:52 | INFO     | framework.base_page | Navigating to https://www.saucedemo.com
+2026-08-01 18:36:52 | DEBUG    | framework.base_page | Filling '' into: #user-name
+2026-08-01 18:36:52 | DEBUG    | framework.base_page | Filling 'secret_sauce' into: #password
+2026-08-01 18:36:52 | DEBUG    | framework.base_page | Clicking: #login-button
+2026-08-01 18:36:53 | INFO     | framework.driver_factory | Browser session closed.
+2026-08-01 18:36:53 | INFO     | framework.driver_factory | Launching browser=chromium headless=True size=1440x900
+2026-08-01 18:36:53 | INFO     | framework.base_page | Navigating to https://www.saucedemo.com
+2026-08-01 18:36:53 | DEBUG    | framework.base_page | Filling 'standard_user' into: #user-name
+2026-08-01 18:36:53 | DEBUG    | framework.base_page | Filling '' into: #password
+2026-08-01 18:36:53 | DEBUG    | framework.base_page | Clicking: #login-button
+2026-08-01 18:36:54 | INFO     | framework.driver_factory | Browser session closed.
+2026-08-01 18:36:54 | INFO     | framework.driver_factory | Launching browser=chromium headless=True size=1440x900
+2026-08-01 18:36:54 | INFO     | framework.base_page | Navigating to https://www.saucedemo.com
+2026-08-01 18:36:55 | DEBUG    | framework.base_page | Filling 'standard_user' into: #user-name
+2026-08-01 18:36:55 | DEBUG    | framework.base_page | Filling 'secret_sauce' into: #password
+2026-08-01 18:36:55 | DEBUG    | framework.base_page | Clicking: #login-button
+2026-08-01 18:36:55 | INFO     | framework.driver_factory | Browser session closed.
