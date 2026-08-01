@@ -1,4 +1,5 @@
-# SDET Test Framework
+
+![Framework Tests](https://github.com/Sankalpshant/sdet-test-framework/actions/workflows/tests.yml/badge.svg)# SDET Test Framework
 
 A reusable Python test automation framework — not a single test suite, but the *tooling* underneath one. Built to demonstrate framework design: config management, driver/session handling, retry logic, structured logging, data-driven testing, soft assertions, and an API client — the kind of infrastructure an SDET builds so other engineers can write tests faster and more reliably.
 
